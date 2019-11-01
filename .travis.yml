@@ -1,4 +1,6 @@
-os: osx
+os:
+    - osx
+    - linux
 language: cpp
 compiler: g++
 script:
@@ -14,8 +16,7 @@ deploy:
   api_key:
     secure: "6827807f0febef3b5d7d80adc632b05b3d0f69e7"
   file:
-    - "Trash"
-    - "Trash.exe"
+    - "main"
   skip_cleanup: true
   on:
     tags: true
