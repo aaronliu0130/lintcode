@@ -15,4 +15,4 @@ change the code into
 		static//*/
 		void test(){ // @suppress("Unused static function")
 		
-by removing the leading slash character and `g++` to build. Then execute the binary.
+by removing the leading slash character. `cd` into `Debug/` and use the command `make` or `make all` to build(assuming you're under a linux environment). Then, execute the `main` binary.

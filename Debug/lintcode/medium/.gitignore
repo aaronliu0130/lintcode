@@ -39,5 +39,9 @@
 *.tree
 .safetable/
 /.metadata/
-__MACOSX/
+# APFS Files
 .DS_Store
+# Eclipse Items
+.project
+.settings
+.cproject
