@@ -7,12 +7,16 @@
 
 #ifndef UTIL_H_
 #define UTIL_H_
-
+#ifdef __linux__
+#define INT_MIN INT32_MIN
+#define INT_MAX INT32_MAX
+#endif
 
 #include <vector>
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cstring>
 #include <functional>
 #include <map>
 #include <unordered_map>

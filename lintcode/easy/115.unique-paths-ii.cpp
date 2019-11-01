@@ -38,17 +38,6 @@ public:
 		return map[m - 1][n - 1];
 	}
 };
-class Solution2{
-public:
-	/**
-	 * @param obstacleGrid: A list of lists of integers
-	 * @return: An integer
-	 */
-	int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid){
-		int m=obstacleGrid.size(),n=obstacleGrid[0].size();
-		vector<vector<int>> map(m,vector<int>(n,0));
-	}
-};
 //*
  #pragma GCC diagnostic ignored "-Wunused-function"
  static//*/

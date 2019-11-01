@@ -34,7 +34,7 @@ public:
         return result;
     }
 };
-class SolutionOLD{
+class SolutionOLD {
 public:
 	/**
 	 * @param root: A Tree
@@ -58,11 +58,13 @@ public:
 			}
 		}
 		return result;
+	}
 };
 //*
 #pragma GCC diagnostic ignored "-Wunused-function"
 static //*/
 int test() { // @suppress("Unused static function")
+	Solution s;
 	TreeNode test[] { {1, 2, 3}, {1, INT_MIN, 2, 3}};
 	vector<vector<int>> expected[] { { {1}, {2, 3}},
 		{	{	1}, {2}, {3}}};
