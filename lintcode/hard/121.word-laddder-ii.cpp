@@ -3,6 +3,11 @@
  *
  *  Created on: Aug 22, 2019
  *      Author: Aaron
+ *      https://www.lintcode.com/problem/word-ladder-ii/description
+ *      Given two words (start and end), and a dictionary, find all shortest transformation sequence(s) from start to end, output sequence in dictionary order.
+ *      Transformation rule such that:
+ *          1.  Only one letter can be changed at a time
+ *          2.  Each intermediate word must exist in the dictionary
  */
 #include "../utils/utils.h"
 using namespace std;

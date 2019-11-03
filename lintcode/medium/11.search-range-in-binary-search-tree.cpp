@@ -3,9 +3,10 @@
  *
  *  Created on: Jul 28, 2019
  *      Author: Aaron
+ *      https://www.lintcode.com/problem/search-range-in-binary-search-tree/description
+ *      Given a binary search tree and a range [k1, k2], return node values within a given range in ascending order.
  */
-
-#include "../../lintcode/utils/utils.h"
+#include "../utils/utils.h"
 class Solution {
 public:
     vector<int> searchRange(TreeNode * root, int k1, int k2) {

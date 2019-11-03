@@ -3,6 +3,8 @@
  *
  *  Created on: Aug 23, 2019
  *      Author: Aaron
+ *      https://www.lintcode.com/problem/permutations/description
+ *      Given a list of numbers, return all possible permutations.
  */
 #include "../utils/utils.h"
 using namespace std;

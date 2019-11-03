@@ -3,6 +3,9 @@
  *
  *  Created on: Sep 22, 2019
  *      Author: Aaron
+ *
+ * https://www.lintcode.com/problem/maximum-subarray/description
+ * Given an array of integers, find a contiguous subarray which has the largest sum.
  */
 
 #include "../utils/utils.h"

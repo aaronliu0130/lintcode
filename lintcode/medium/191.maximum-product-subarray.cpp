@@ -6,7 +6,6 @@
  *      https://www.lintcode.com/problem/maximum-product-subarray/description
  *      Find the contiguous subarray within an array (containing at least one number) which has the largest product.
  */
-#define __DEBUG
 #include "../utils/utils.h"
 
 class Solution {
@@ -17,7 +16,6 @@ public:
      * @return: The root of the binary search tree after removal.
      */
     TreeNode * removeNode(TreeNode * root, int value) {
-        // write your code here
         if(root){
             if(root->val==value){
                 auto oldroot=root;
@@ -69,8 +67,3 @@ int test(){ // @suppress("Unused static function")
 	cout<<"maximum-product-subarray passed.\n";
 	return 0;
 }
-
-
-
-
-

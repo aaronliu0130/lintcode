@@ -3,8 +3,10 @@
  *
  *  Created on: Oct 26, 2019
  *      Author: Aaron
+ *
+ *  https://www.lintcode.com/problem/a-b-problem/description
+ *  Write a function that add two numbers A and B.
  */
-
 #include "../utils/utils.h"
 using namespace std;
 class Solution {

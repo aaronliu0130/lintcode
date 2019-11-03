@@ -1,3 +1,16 @@
+/*
+ * 12.min-stack.cpp
+ *
+ *  Created on: Oct 27, 2019
+ *      Author: Aaron
+ *
+ *  https://www.lintcode.com/problem/min-stack/description
+ *  Implement a stack with following functions:
+ *      push(val) push val into the stack
+ *      pop() pop the top element and return it
+ *      min() return the smallest number in the stack
+ *  All above should be in O(1) cost.
+ */
 class MinStack {
 public:
     stack<int> s,Min;

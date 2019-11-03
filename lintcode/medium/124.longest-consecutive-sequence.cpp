@@ -3,6 +3,8 @@
  *
  *  Created on: Sep 28, 2019
  *      Author: Aaron
+ *      https://www.lintcode.com/problem/longest-consecutive-sequence/description
+ *      Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
  */
 
 #include "../utils/utils.h"

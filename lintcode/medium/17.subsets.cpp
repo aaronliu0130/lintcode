@@ -3,6 +3,8 @@
  *
  *  Created on: Aug 24, 2019
  *      Author: Aaron
+ *      https://www.lintcode.com/problem/subsets/description
+ *      Given a set of distinct integers, return all possible subsets.
  */
 #include "../utils/utils.h"
 using namespace std;

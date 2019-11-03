@@ -4,7 +4,7 @@
  *  Created on: Jul 1, 2019
  *      Author: jerron
  *      https://www.lintcode.com/problem/permutations-ii/description
- *      Given a linked list, remove the nth node from the end of list and return its head.
+ *      Given a list of numbers with duplicate number in it. Find all unique permutations.
  */
 
 #include "../utils/utils.h"

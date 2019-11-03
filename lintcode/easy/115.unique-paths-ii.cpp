@@ -3,6 +3,11 @@
  *
  *  Created on: Sep 8, 2019
  *      Author: Aaron
+ *
+ *  https://www.lintcode.com/problem/unique-paths-ii/description
+ *  Follow up for "Unique Paths":
+ *  Now consider if some obstacles are added to the grids. How many unique paths would there be?
+ *  An obstacle and empty space is marked as 1 and 0 respectively in the grid.
  */
 #include "../utils/utils.h"
 using namespace std;
